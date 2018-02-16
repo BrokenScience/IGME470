@@ -1,3 +1,6 @@
+# IGME470 Blog Post 3 - Variable Resistor
+I set up a basic circuit with the tempature sensor [TMP36](https://www.adafruit.com/product/165?gclid=EAIaIQobChMIsdXDwLup2QIVCYrICh3CRAAwEAQYAyABEgLHNfD_BwE). Despite my best efforts, I was not able to get the serial reading to go above 215 (which is the tempature of my hands) or below 200 (blowing on it). It clearly doesn't fluctuate very much as that was roughly a change of 30 degrees F. It would take a much more signifigant temperature change go above 250 or below 100. According to Adafruit the tempature sensor only ranges between -50C and 125C at 0V output and 1.75V output respectivly. I can't think of any future project that could use such a range, so I do not plan on using it.
+ 
 # IGME470 Blog Post 2 - Blink
 For this project I created a game out of some LEDs and an arduino Nano. This game has 2 players fight for best of 5  in 1 dementional pong. Each player must press their button when the light is in one of their 2 red LEDs to send the light back. Each bounce increases the speed of the light untill someone fails to hit the button on time.
  
