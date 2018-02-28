@@ -1,3 +1,6 @@
+## Experience Taxonomy
+[here](https://github.com/BrokenScience/IGME470/blob/master/Other/ExperienceTaxonomy.xlsx)
+ 
 # IGME470 Blog Post 3 - Variable Resistor
 I set up a basic circuit with the tempature sensor [TMP36](https://www.adafruit.com/product/165?gclid=EAIaIQobChMIsdXDwLup2QIVCYrICh3CRAAwEAQYAyABEgLHNfD_BwE). Despite my best efforts, I was not able to get the serial reading to go above 215 (which is the tempature of my hands) or below 200 (blowing on it). It clearly doesn't fluctuate very much as that was roughly a change of 30 degrees F. It would take a much more signifigant temperature change go above 250 or below 100. According to Adafruit the tempature sensor only ranges between -50C and 125C at 0V output and 1.75V output respectivly. I can't think of any future project that could use such a range, so I do not plan on using it.
  
