@@ -1,3 +1,20 @@
+# IGME470 Blog Post 4 - Wearables
+For this project I created an alternative beanie hat with a motorized propellor on top. The propellor would spin faster when an accelerometer attached to the hat was accelerated faster. The code to for the arduino can be found [here](https://github.com/BrokenScience/IGME470/blob/master/Projects/Wearables.ino).
+ 
+![The Hat}](https://github.com/BrokenScience/IGME470/blob/master/Images/Wearables/Hat.jpg)
+This is the Hat with the propeller on the left, the arduino on the top and the breadboard mounted on the brim. The hat unfortunately needs to be pluged in to function.
+ 
+![The Accelerometer](https://github.com/BrokenScience/IGME470/blob/master/Images/Wearables/Accelerometer.jpg)
+This is the accelerometer for the hat attached to the end of a nearly 4ft cable to enable the user a wide range of movement.
+ 
+### Future Improvements
+- Have the hat Battery powered
+- Increase the durability (currently lasts long enough to demo. No more, No less)
+- More propellers (one is not enough)
+- More interactivity (Needs something more: lights perhaps...)
+- Find a way to get github to recognize photo orientation (so they look better)
+- Get a higher quality camera
+ 
 ## Experience Taxonomy
 [here](https://github.com/BrokenScience/IGME470/blob/master/Other/ExperienceTaxonomy.xlsx)
  
@@ -5,12 +22,12 @@
 I set up a basic circuit with the tempature sensor [TMP36](https://www.adafruit.com/product/165?gclid=EAIaIQobChMIsdXDwLup2QIVCYrICh3CRAAwEAQYAyABEgLHNfD_BwE). Despite my best efforts, I was not able to get the serial reading to go above 215 (which is the tempature of my hands) or below 200 (blowing on it). It clearly doesn't fluctuate very much as that was roughly a change of 30 degrees F. It would take a much more signifigant temperature change go above 250 or below 100. According to Adafruit the tempature sensor only ranges between -50C and 125C at 0V output and 1.75V output respectivly. I can't think of any future project that could use such a range, so I do not plan on using it.
  
 # IGME470 Blog Post 2 - Blink
-For this project I created a game out of some LEDs and an arduino Nano. This game has 2 players fight for best of 5  in 1 dementional pong. Each player must press their button when the light is in one of their 2 red LEDs to send the light back. Each bounce increases the speed of the light untill someone fails to hit the button on time.
+For this project I created a game out of some LEDs and an arduino Nano. This game has 2 players fight for best of 5 in 1 dementional pong. Each player must press their button when the light is in one of their 2 red LEDs to send the light back. Each bounce increases the speed of the light untill someone fails to hit the button on time.
  
-![Boxed Image](https://github.com/BrokenScience/IGME470/blob/master/Images/BlinkBox.jpg)
+![Boxed Image](https://github.com/BrokenScience/IGME470/blob/master/Images/Blink/BlinkBox.jpg)
 This particular image shows the box the components are in with the LEDs sticking out of the top of the box with the buttons out to the side.
  
-![UnBoxed Image](https://github.com/BrokenScience/IGME470/blob/master/Images/BlinkUnBox.jpg)
+![UnBoxed Image](https://github.com/BrokenScience/IGME470/blob/master/Images/Blink/BlinkUnBox.jpg)
 This picture shows the wiring to the Arduino Nano in the bread boards as well as the resistors and button wiring. It doesn't look quite as glamorous as when concealed within the box.
  
 The code to for the Arduino can be found [here](https://github.com/BrokenScience/IGME470/blob/master/Projects/Blink.ino)
