@@ -1,5 +1,5 @@
 # IGME470 Blog Post 4 - Wearables
-For this project I created an alternative beanie hat with a motorized propellor on top. The propellor would spin faster when an accelerometer attached to the hat was accelerated faster. The code to for the arduino can be found [here](https://github.com/BrokenScience/IGME470/blob/master/Projects/Wearables.ino).
+For this project I created an alternative beanie hat with a motorized propellor on top. The propellor would spin faster when an accelerometer attached to the hat was accelerated faster. The code to for the arduino can be found [here](https://github.com/BrokenScience/IGME470/blob/master/Projects/Wearables.ino). I modified the acccerometer example to run the motor instead of printing to the serial window.
  
 ![The Hat}](https://github.com/BrokenScience/IGME470/blob/master/Images/Wearables/Hat.jpg)
 This is the Hat with the propeller on the left, the arduino on the top and the breadboard mounted on the brim. The hat unfortunately needs to be pluged in to function.
@@ -14,6 +14,7 @@ This is the accelerometer for the hat attached to the end of a nearly 4ft cable 
 - More interactivity (Needs something more: lights perhaps...)
 - Find a way to get github to recognize photo orientation (so they look better)
 - Get a higher quality camera
+- Change the motor speed to reflect speed not acceleration
  
 ## Experience Taxonomy
 [here](https://github.com/BrokenScience/IGME470/blob/master/Other/ExperienceTaxonomy.xlsx)
