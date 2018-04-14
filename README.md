@@ -1,3 +1,6 @@
+# IGME470 Blog Post 5 - Audio
+Under construction: Please check back in a bit
+
 # IGME470 Blog Post 4 - Wearables
 For this project I created an alternative beanie hat with a motorized propellor on top. The propellor would spin faster when an accelerometer attached to the hat was accelerated faster. The code to for the arduino can be found [here](https://github.com/BrokenScience/IGME470/blob/master/Projects/Wearables.ino). I modified the acccerometer example to run the motor instead of printing to the serial window.
  
