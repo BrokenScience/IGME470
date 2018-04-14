@@ -1,11 +1,23 @@
 # IGME470 Blog Post 5 - Audio
-Under construction: Please check back in a bit
-
+For this project I created The Great Finals Scream Machine. Created in the spirit of finals, this Scream Machine screams when it picks up screaming (or any loud noise) through a mic on the top. The louder the scream in, the louder the scream out. Unfortunately the mic isn't the greatest and has difficulty picking up noise. Code can be found [here](https://github.com/BrokenScience/IGME470/blob/master/Projects/Wearables.ino).
+ 
+![The Great Finals Scream Machine](https://github.com/BrokenScience/IGME470/blob/master/Images/Audio/ClosedBox.jpg)
+Here is The Great Finals Scream Machine closed with the microphone on top. The microphone is designed to be moved to a persons mouth for best audio pick up (despite still not being that good).
+ 
+![The inside of The Great Finals Scream Machine](https://github.com/BrokenScience/IGME470/blob/master/Images/Audio/OpenBox.jpg)
+Here is the inside of The Great Finals Scream Machine. Although not very interesting, contains the speaker and Arduino.
+ 
+### Future Improvements
+- Get a better quality mic
+- Get a better quality speaker
+- Add another speaker for more screams
+- Tweak values for even better performance
+ 
 # IGME470 Blog Post 4 - Wearables
 For this project I created an alternative beanie hat with a motorized propellor on top. The propellor would spin faster when an accelerometer attached to the hat was accelerated faster. The code to for the arduino can be found [here](https://github.com/BrokenScience/IGME470/blob/master/Projects/Wearables.ino). I modified the acccerometer example to run the motor instead of printing to the serial window.
  
 ![The Hat}](https://github.com/BrokenScience/IGME470/blob/master/Images/Wearables/Hat.jpg)
-This is the Hat with the propeller on the left, the arduino on the top and the breadboard mounted on the brim. The hat unfortunately needs to be pluged in to function.
+This is the Hat with the propeller on the left, the Aduino on the top and the breadboard mounted on the brim. The hat unfortunately needs to be pluged in to function.
  
 ![The Accelerometer](https://github.com/BrokenScience/IGME470/blob/master/Images/Wearables/Accelerometer.jpg)
 This is the accelerometer for the hat attached to the end of a nearly 4ft cable to enable the user a wide range of movement.
