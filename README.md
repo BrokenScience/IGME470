@@ -1,3 +1,6 @@
+# IGME470 Blog Post 6 - Game of Arbitrariness - Lentil Launch
+Launch lentils into a tea kettle for points (clean-up is not part of the game). Game senses a made shot though a scale under the tea kettle. Increase in weight, shot made. The shot is fired from a little catapult powered by a motor controlled by the arduino. The player uses 2 buttons for rotation (left and right) of the catapult 2 buttons for power (more and also more) and another to fire. The player shoots a specific number of lentils before the game ends.
+ 
 # IGME470 Blog Post 5 - Audio
 For this project I created The Great Finals Scream Machine. Created in the spirit of finals, this Scream Machine screams when it picks up screaming (or any loud noise) through a mic on the top. The louder the scream in, the louder the scream out. Unfortunately the mic isn't the greatest and has difficulty picking up noise. Code can be found [here](https://github.com/BrokenScience/IGME470/blob/master/Projects/Wearables.ino).
  
@@ -52,7 +55,7 @@ The code to for the Arduino can be found [here](https://github.com/BrokenScience
 - More LEDs. 9 is not enough in my opinion
 - Smoother led transitions using the Analog output. It would look much cooler if the light was more continuous rather than discrete
 - Clean up code. Code is a mess to look at. I would clean it up more if I had more time.
--  A nicer box. This one did not go as well as I had hoped.
+- A nicer box. This one did not go as well as I had hoped.
 - Tweak the values. More Speed Increase Faster? Longer Animations? Perhaps
 - Learn to Photo More Better
  
