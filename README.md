@@ -1,6 +1,15 @@
 # IGME470 Blog Post 6 - Game of Arbitrariness - Lentil Launch
 Launch lentils into a tea kettle for points (clean-up is not part of the game). Game senses a made shot though a scale under the tea kettle. Increase in weight, shot made. The shot is fired from a little catapult powered by a motor controlled by the arduino. The player uses 2 buttons for rotation (left and right) of the catapult 2 buttons for power (more and also more) and another to fire. The player shoots a specific number of lentils before the game ends. Difficulty can be controled by the player through placement of the scale/tea kettle.
  
+![Kettle](https://github.com/BrokenScience/IGME470/blob/master/Images/BeanBlaster/Kettle.jpg)
+Tea kettle on scale. Get beans in here.
+ 
+![Beanlista](https://github.com/BrokenScience/IGME470/blob/master/Images/BeanBlaster/Beanlista.jpg)
+As best method of launching beans, the Beanlista uses a spring and 2 servos to shoot the bean in an almost straight line. Wonderful for distance, but not for dropping into the Kettle.
+
+![BootForceApproach](https://github.com/BrokenScience/IGME470/blob/master/Images/BeanBlaster/BootForceApproach.jpg)
+If all else fails, the Boot-Force Approach can fling the bean by hitting it with a miniture boot. Not very accurate or predictible, it is still better than the Beanlista at short range.
+ 
 # IGME470 Blog Post 5 - Audio
 For this project I created The Great Finals Scream Machine. Created in the spirit of finals, this Scream Machine screams when it picks up screaming (or any loud noise) through a mic on the top. The louder the scream in, the louder the scream out. Unfortunately the mic isn't the greatest and has difficulty picking up noise. Code can be found [here](https://github.com/BrokenScience/IGME470/blob/master/Projects/Wearables.ino).
  
