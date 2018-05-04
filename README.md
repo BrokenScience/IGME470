@@ -1,3 +1,6 @@
+# IGME470 Blog Post 7 - Serial
+For this project I created a game of wack-a-mole in Unity that used the Arduino for player input. The Arduino has buttons that corespond to the holes in the game. When a button is pressed, the game will trigger a hit onto the hole, hitting anything that is there. The Unity game spawns moles and bombs in on the holes. A hit on a mole gives the player a point. A hit on a bomb ends the game.
+ 
 # IGME470 Blog Post 6 - Game of Arbitrariness - Lentil Launch
 Launch lentils into a tea kettle for points (clean-up is not part of the game). Game senses a made shot though a scale under the tea kettle. Increase in weight, shot made. The shot is fired from a little catapult powered by a motor controlled by the arduino. The player uses 2 buttons for rotation (left and right) of the catapult 2 buttons for power (more and also more) and another to fire. The player shoots a specific number of lentils before the game ends. Difficulty can be controled by the player through placement of the scale/tea kettle.
  
