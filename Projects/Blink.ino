@@ -1,6 +1,6 @@
 // first is 10
 // last is 2 (near and far determined by distance to arduino nano in breadboard)
-#include <avr/wdt.h>
+#include <avr/wdt.h>                  // Experiment with crashing the board
 const int MINZOOM = 500;              // Longest delay between movement
 const int MAXZOOM = 25;               // Shortest delay between movement
 const int MAXPIN = 10;                // Largest LED pin number
