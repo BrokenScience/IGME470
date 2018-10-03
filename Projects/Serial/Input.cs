@@ -1,13 +1,13 @@
-﻿using System; //So we catch exceptions & ignore them
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.IO.Ports; //So we can do serial
+using System.IO.Ports;
 
 public class Input : MonoBehaviour
 {
 
-    public string aPortName;  //Set in the Inspector after checking
+    public string aPortName;  // Set in the Inspector after checking
     public int baud = 9600;
     SerialPort stream;
 
@@ -19,8 +19,8 @@ public class Input : MonoBehaviour
     {
         stream = new SerialPort(aPortName, baud);
         stream.ReadTimeout = 500;
-        stream.Open(); //Open serial stream
-        //Behavior expected from Arduino's SerialCallResponseASCII sketch
+        stream.Open(); // Open serial stream
+        // Write '1' to confirm connection
         stream.Write("1");
     }
 
@@ -29,14 +29,20 @@ public class Input : MonoBehaviour
     {
         try
         {
+			// get the input from the Arduino
             string value = stream.ReadLine();
-            Debug.Log(value);
+            //Debug.Log(value);
+			
+			// check if data sent working correctly
             if (value == "0")
             {
             }
             else
             {
+				// convert input to char array
                 char[] buttons = value.ToCharArray();
+				
+				// set the hitting of each of the holes by the input
                 for (int i = 0; i < 6; i++)
                 {
                     if (buttons[i] == '1')
@@ -49,11 +55,12 @@ public class Input : MonoBehaviour
                     }
                 }
             }
-            stream.Write("1"); //tell arduino to keep 
+			// tell arduino to keep going
+            stream.Write("1"); 
         }
         catch (Exception e)
         {
-            //no op
+            // no op
         }
 
     }
